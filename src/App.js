@@ -7,11 +7,11 @@ const theme = createTheme({
     pillRadius: 50,
   },
   palette: {
-    primary: { main: '#F4D800' },
+    primary: { main: '#000000' },
     secondary: {
-      main: '#050707',
+      main: '#000000',
     },
-    error: { main: '#ffd700' },
+    error: { main: '#000000' },
   },
   breakpoints: {
     values: {
