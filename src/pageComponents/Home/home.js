@@ -3,6 +3,7 @@ import Menu from '../Menu/menu.js';
 import HomeHeader from '../Home/homeHeader.js';
 import HomeBenefits from '../Home/homeBenefits.js';
 import HomeWhyUs from '../Home/homeWhyUs.js';
+import HomeAbout from '../Home/homeAbout.js';
 
 export default function home() {
   return (
@@ -11,6 +12,7 @@ export default function home() {
       <HomeHeader />
       <HomeBenefits />
       <HomeWhyUs />
+      <HomeAbout />
     </div>
   );
 }

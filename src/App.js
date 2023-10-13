@@ -7,9 +7,9 @@ const theme = createTheme({
     pillRadius: 50,
   },
   palette: {
-    primary: { main: '#000000' },
+    primary: { main: '#ffffff' },
     secondary: {
-      main: '#000000',
+      main: '#ffffff',
     },
     error: { main: '#000000' },
   },

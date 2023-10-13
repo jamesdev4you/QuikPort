@@ -33,7 +33,7 @@ const homeBenefits = () => {
     <Box
       sx={{
         width: '100%',
-        height: '30vh',
+        height: '32vh',
         backgroundColor: '#F1F1F1',
         display: 'flex',
         alignItems: 'center',

@@ -11,21 +11,21 @@ const homeWhyUs = () => {
       title: 'Fill Out Form',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultrices orci, ut vulputate augue. Phasellus tincidunt enim at augue tempor finibus. Nulla at luctus libero, in pharetra.',
       icon: One,
-      color: 'red',
+      color: 'black',
       button: <MyStyledButton />,
     },
     {
       title: 'Car Gets Shipped',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultrices orci, ut vulputate augue. Phasellus tincidunt enim at augue tempor finibus. Nulla at luctus libero, in pharetra.',
       icon: Two,
-      color: 'gold',
+      color: 'black',
       button: <MyStyledButton />,
     },
     {
       title: 'Car Gets Delivered',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultrices orci, ut vulputate augue. Phasellus tincidunt enim at augue tempor finibus. Nulla at luctus libero, in pharetra.',
       icon: Three,
-      color: 'green',
+      color: 'black',
       button: <MyStyledButton />,
     },
   ];
@@ -170,7 +170,7 @@ const homeWhyUs = () => {
                 paddingBottom: '.2em',
                 width: '90%',
                 textAlign: 'center',
-                borderBottom: '3px solid black',
+                borderBottom: '3px solid gold',
               }}
             >
               {title}

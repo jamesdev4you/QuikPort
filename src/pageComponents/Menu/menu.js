@@ -63,7 +63,7 @@ export default function NavBar(props) {
     <Box sx={{ flexGrow: 1 }}>
       <CssBaseline />
       <AppBar component='nav'>
-        <Toolbar sx={{ backgroundColor: '#000000' }}>
+        <Toolbar sx={{ backgroundColor: '#ffffff' }}>
           <IconButton
             color='inherit'
             aria-label='open drawer'
@@ -104,6 +104,7 @@ export default function NavBar(props) {
                 style={{
                   fontFamily: 'Birds',
                   textTransform: 'none',
+                  color: 'black',
                 }}
                 to={item.href}
               >
