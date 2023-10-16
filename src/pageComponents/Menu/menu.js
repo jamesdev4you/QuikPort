@@ -34,7 +34,7 @@ export default function NavBar(props) {
   const drawer = (
     <Box
       onClick={handleDrawerToggle}
-      sx={{ textAlign: 'center', backgroundColor: 'primary.main' }}
+      sx={{ textAlign: 'center', backgroundColor: 'black' }}
     >
       <img src={Logo} alt='yooo' style={{ height: '150px', width: '150px' }} />
       <Divider sx={{ backgroundColor: 'white' }} />
@@ -63,7 +63,7 @@ export default function NavBar(props) {
     <Box sx={{ flexGrow: 1 }}>
       <CssBaseline />
       <AppBar component='nav'>
-        <Toolbar sx={{ backgroundColor: '#ffffff' }}>
+        <Toolbar sx={{ backgroundColor: 'black' }}>
           <IconButton
             color='inherit'
             aria-label='open drawer'
@@ -104,7 +104,7 @@ export default function NavBar(props) {
                 style={{
                   fontFamily: 'Birds',
                   textTransform: 'none',
-                  color: 'black',
+                  color: 'white',
                 }}
                 to={item.href}
               >

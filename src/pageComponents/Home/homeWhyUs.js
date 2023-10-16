@@ -170,7 +170,7 @@ const homeWhyUs = () => {
                 paddingBottom: '.2em',
                 width: '90%',
                 textAlign: 'center',
-                borderBottom: '3px solid gold',
+                borderBottom: '3px solid black',
               }}
             >
               {title}

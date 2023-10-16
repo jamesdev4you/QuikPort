@@ -14,7 +14,7 @@ const header = () => {
     <Box
       sx={{
         width: '100%',
-        height: '70vh',
+        height: '65vh',
         backgroundImage: `url(${Ferrari})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -53,17 +53,19 @@ const header = () => {
           alignItems: 'center',
           justifyContent: 'center',
           flexDirection: 'column',
-          backgroundColor: '#ECF1F2',
-          border: '2px solid #050707',
+          backgroundColor: 'black',
+          border: '2px solid gold',
           padding: '15px',
-          borderRadius: '5px',
+          borderRadius: '15px',
           width: '23%',
           height: '19em',
+          boxShadow:
+            'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
         }}
       >
         <Typography
           variant='h4'
-          sx={{ color: '#050707', width: '100%', textAlign: 'left' }}
+          sx={{ color: 'white', width: '100%', textAlign: 'left' }}
         >
           Get a FREE Quote
         </Typography>
@@ -72,7 +74,7 @@ const header = () => {
             width: '100%',
             textAlign: 'left',
             fontSize: '16px',
-            color: '#050707',
+            color: 'white',
             marginBottom: '15px',
           }}
         >
@@ -90,23 +92,23 @@ const header = () => {
                 color='secondary'
                 sx={{
                   '& .MuiFilledInput-root': {
-                    backgroundColor: '#1B1E1E',
+                    backgroundColor: 'white',
                   },
                   '& label.Mui-focused': {
                     color: '#1B1E1E',
                   },
                   '& .MuiFormLabel-root': {
-                    color: '#ECF1F2',
+                    color: 'black',
                   },
                   '& .MuiFormLabel-root.Mui-focused': {
-                    color: '#ECF1F2',
+                    color: 'black',
                   },
                   '& .MuiInput-underline:after': {
                     borderBottomColor: 'yellow',
                   },
                   '& .MuiOutlinedInput-root': {
                     '& fieldset': {
-                      borderColor: '#ECF1F2',
+                      borderColor: 'black',
                     },
                     '&:hover fieldset': {
                       borderColor: '#ECF1F2',
@@ -116,7 +118,7 @@ const header = () => {
                     },
                   },
                   '& .MuiInputBase-root': {
-                    color: '#ECF1F2',
+                    color: 'black',
                   },
                 }}
               />
@@ -131,23 +133,23 @@ const header = () => {
                 color='secondary'
                 sx={{
                   '& .MuiFilledInput-root': {
-                    backgroundColor: '#1B1E1E',
+                    backgroundColor: 'white',
                   },
                   '& label.Mui-focused': {
                     color: '#1B1E1E',
                   },
                   '& .MuiFormLabel-root': {
-                    color: '#ECF1F2',
+                    color: 'black',
                   },
                   '& .MuiFormLabel-root.Mui-focused': {
-                    color: '#ECF1F2',
+                    color: 'black',
                   },
                   '& .MuiInput-underline:after': {
                     borderBottomColor: 'yellow',
                   },
                   '& .MuiOutlinedInput-root': {
                     '& fieldset': {
-                      borderColor: '#ECF1F2',
+                      borderColor: 'black',
                     },
                     '&:hover fieldset': {
                       borderColor: '#ECF1F2',
@@ -157,7 +159,7 @@ const header = () => {
                     },
                   },
                   '& .MuiInputBase-root': {
-                    color: '#ECF1F2',
+                    color: 'black',
                   },
                 }}
               />
@@ -169,6 +171,12 @@ const header = () => {
                 variant='contained'
                 fullWidth
                 color='primary'
+                sx={{
+                  backgroundColor: 'gold',
+                  '&:hover': {
+                    backgroundColor: '#e7c300',
+                  },
+                }}
               >
                 Submit
               </Button>

@@ -70,7 +70,6 @@ const homeBenefits = () => {
               sx={{
                 height: '50px',
                 width: '50px',
-                color: '#000000',
                 color: 'gold',
               }}
             />
