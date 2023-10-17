@@ -54,77 +54,16 @@ const homeWhyUs = () => {
         }}
       >
         <Typography
-          variant='h1'
+          variant='h2'
           sx={{
             color: 'white',
+            fontFamily: 'Lemon',
+            paddingBottom: '.2em',
+            borderBottom: '3px solid gold',
           }}
         >
           How It All Works
         </Typography>
-        <Box
-          sx={{
-            height: '3px',
-            width: '90%',
-            display: 'flex',
-          }}
-        >
-          <Box
-            sx={{
-              height: '4px',
-              width: '4%',
-              backgroundColor: 'yellow',
-              display: 'flex',
-            }}
-          />
-          <Box
-            sx={{
-              height: '3px',
-              width: '3%',
-              backgroundColor: 'black',
-              display: 'flex',
-            }}
-          />
-          <Box
-            sx={{
-              height: '4px',
-              width: '4%',
-              backgroundColor: 'yellow',
-              display: 'flex',
-            }}
-          />
-          <Box
-            sx={{
-              height: '3px',
-              width: '4%',
-              backgroundColor: 'black',
-              display: 'flex',
-            }}
-          />
-          <Box
-            sx={{
-              height: '4px',
-              width: '5%',
-              backgroundColor: 'yellow',
-              display: 'flex',
-            }}
-          />
-          <Box
-            sx={{
-              height: '4px',
-              width: '4%',
-              backgroundColor: 'black',
-              display: 'flex',
-            }}
-          />
-          <Box
-            sx={{
-              height: '4px',
-              width: '80%',
-              backgroundColor: 'yellow',
-              display: 'flex',
-            }}
-          />
-        </Box>
       </Box>
       <Box
         sx={{
@@ -171,6 +110,7 @@ const homeWhyUs = () => {
                 width: '90%',
                 textAlign: 'center',
                 borderBottom: '3px solid black',
+                fontFamily: 'Lemon',
               }}
             >
               {title}

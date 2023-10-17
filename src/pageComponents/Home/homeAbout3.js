@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import Ferrari from '../../assets/homeabout.jpg';
+import Ferr from '../../assets/homeabout3.jpg';
 import '../../index.css';
 
-const homeAbout = () => {
+const homeAbout3 = () => {
   return (
     <Box
       sx={{
@@ -20,7 +20,7 @@ const homeAbout = () => {
         sx={{
           height: '400px',
           width: '400px',
-          background: `url(${Ferrari})`,
+          background: `url(${Ferr})`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
@@ -73,4 +73,4 @@ const homeAbout = () => {
   );
 };
 
-export default homeAbout;
+export default homeAbout3;

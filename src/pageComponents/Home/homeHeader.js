@@ -8,6 +8,7 @@ import {
   Grid,
   Button,
 } from '@mui/material';
+import '../../index.css';
 
 const header = () => {
   return (
@@ -32,17 +33,28 @@ const header = () => {
           flexDirection: 'column',
           width: '65%',
           height: '17em',
+          marginTop: '80px',
         }}
       >
         <Typography
-          variant='h1'
-          sx={{ color: '#ECF1F2', textAlign: 'left', width: '90%' }}
+          sx={{
+            fontSize: '64px',
+            color: '#ECF1F2',
+            textAlign: 'left',
+            width: '90%',
+            fontFamily: 'Lemon',
+          }}
         >
           Transportation Done Right
         </Typography>
         <Typography
-          variant='h3'
-          sx={{ color: '#ECF1F2', textAlign: 'left', width: '88%' }}
+          variant='h4'
+          sx={{
+            color: '#ECF1F2',
+            textAlign: 'left',
+            width: '88%',
+            fontFamily: 'Lemon',
+          }}
         >
           Secure your vehicle shipping today!
         </Typography>
@@ -59,13 +71,19 @@ const header = () => {
           borderRadius: '15px',
           width: '23%',
           height: '19em',
+          marginTop: '60px',
           boxShadow:
             'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
         }}
       >
         <Typography
           variant='h4'
-          sx={{ color: 'white', width: '100%', textAlign: 'left' }}
+          sx={{
+            color: 'white',
+            width: '100%',
+            textAlign: 'left',
+            fontFamily: 'Lemon',
+          }}
         >
           Get a FREE Quote
         </Typography>
@@ -76,6 +94,7 @@ const header = () => {
             fontSize: '16px',
             color: 'white',
             marginBottom: '15px',
+            ffontFamily: 'Lemon',
           }}
         >
           <span style={{ color: 'red' }}>*</span> INDICATES REQUIRED FIELD!
@@ -98,7 +117,7 @@ const header = () => {
                     color: '#1B1E1E',
                   },
                   '& .MuiFormLabel-root': {
-                    color: 'black',
+                    color: 'grey',
                   },
                   '& .MuiFormLabel-root.Mui-focused': {
                     color: 'black',
@@ -118,7 +137,7 @@ const header = () => {
                     },
                   },
                   '& .MuiInputBase-root': {
-                    color: 'black',
+                    color: 'grey',
                   },
                 }}
               />
@@ -139,7 +158,7 @@ const header = () => {
                     color: '#1B1E1E',
                   },
                   '& .MuiFormLabel-root': {
-                    color: 'black',
+                    color: 'grey',
                   },
                   '& .MuiFormLabel-root.Mui-focused': {
                     color: 'black',
@@ -159,7 +178,7 @@ const header = () => {
                     },
                   },
                   '& .MuiInputBase-root': {
-                    color: 'black',
+                    color: 'grey',
                   },
                 }}
               />

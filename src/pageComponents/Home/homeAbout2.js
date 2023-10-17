@@ -1,9 +1,9 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import Ferrari from '../../assets/homeabout.jpg';
+import Ferrari from '../../assets/homeabout2.jpg';
 import '../../index.css';
 
-const homeAbout = () => {
+const homeAbout2 = () => {
   return (
     <Box
       sx={{
@@ -16,18 +16,6 @@ const homeAbout = () => {
         gap: '15em',
       }}
     >
-      <Box
-        sx={{
-          height: '400px',
-          width: '400px',
-          background: `url(${Ferrari})`,
-          backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          boxShadow:
-            'rgba(0, 0, 0, 0.4) 5px 5px, rgba(0, 0, 0, 0.3) 10px 10px, rgba(0, 0, 0, 0.2) 15px 15px, rgba(0, 0, 0, 0.1) 20px 20px, rgba(0, 0, 0, 0.05) 25px 25px',
-        }}
-      />
       <Box
         sx={{
           display: 'flex',
@@ -69,8 +57,20 @@ const homeAbout = () => {
           Start Today!
         </Button>
       </Box>
+      <Box
+        sx={{
+          height: '400px',
+          width: '400px',
+          background: `url(${Ferrari})`,
+          backgroundRepeat: 'no-repeat',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          boxShadow:
+            'rgba(0, 0, 0, 0.4) -5px 5px, rgba(0, 0, 0, 0.3) -10px 10px, rgba(0, 0, 0, 0.2) -15px 15px, rgba(0, 0, 0, 0.1) -20px 20px, rgba(0, 0, 0, 0.05) -25px 25px',
+        }}
+      />
     </Box>
   );
 };
 
-export default homeAbout;
+export default homeAbout2;

@@ -11,3 +11,14 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@font-face {
+  font-family: 'Business';
+  src: local('Business'), url(./fonts/Business-axoOa.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Lemon';
+  src: local('Lemon'),
+    url(./fonts/LemonMilkRegular-X3XE2.otf) format('opentype');
+}

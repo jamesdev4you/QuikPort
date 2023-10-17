@@ -74,13 +74,15 @@ const homeBenefits = () => {
               }}
             />
             <Typography
-              variant='h4'
+              variant='h5'
               sx={{
                 color: 'gold',
                 borderBottom: '1px solid gold',
                 width: '100%',
                 textAlign: 'center',
                 paddingBottom: '.3em',
+                paddingTop: '.3em',
+                fontFamily: 'Lemon',
               }}
             >
               {title}
