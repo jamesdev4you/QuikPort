@@ -79,12 +79,13 @@ const homeWhyUs = () => {
           <Box
             sx={{
               width: '28%',
-              padding: '1em',
+              padding: '.5em',
               height: '60vh',
               backgroundColor: '#ffffff',
               borderRadius: '15px',
+              border: '3px solid gold',
               boxShadow:
-                'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
+                'rgba(11, 15, 13, 0.48) 6px 2px 16px 0px, rgba(212, 215, 213, 0.8) -6px -2px 16px 0px',
               display: 'flex',
               flexDirection: 'column',
               alignItems: 'center',
@@ -98,7 +99,6 @@ const homeWhyUs = () => {
                 height: '100px',
                 width: '100px',
                 color: '#000000',
-                color: { color },
               }}
             />
             <Typography
