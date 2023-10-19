@@ -6,6 +6,7 @@ a.nav_link:hover {
 .nav_link {
   text-decoration: none;
   color: black;
+
 }
 
 .menu_link {
@@ -13,10 +14,14 @@ a.nav_link:hover {
   color: #ffffff;
   font-size: 20px;
   margin-left: 35px;
-  text-align: left;
+  text-align: left; 
+}
+
+.menu_link:hover{
+  color: gold;
 }
 
 a.menu_link:hover {
   cursor: pointer;
-  color: #c2ad90;
+  color: gold;
 }

@@ -18,7 +18,7 @@ import { Outlet } from 'react-router-dom';
 const drawerWidth = 240;
 const navItems = [
   { text: 'Home', href: '/' },
-  { text: 'Appointment', href: '/appointment' },
+  { text: 'Contact', href: '/contact' },
   { text: 'Reviews', href: '/reviews' },
   { text: 'Team', href: '/team' },
   { text: 'Gallery', href: '/gallery' },
@@ -102,9 +102,10 @@ export default function NavBar(props) {
               <NavLink
                 className='menu_link'
                 style={{
-                  fontFamily: 'Birds',
+                  fontFamily: 'Lemon',
                   textTransform: 'none',
                   color: 'white',
+                  
                 }}
                 to={item.href}
               >

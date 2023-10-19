@@ -120,14 +120,14 @@ const header = () => {
                     color: 'grey',
                   },
                   '& .MuiFormLabel-root.Mui-focused': {
-                    color: 'black',
+                    color: 'grey',
                   },
                   '& .MuiInput-underline:after': {
                     borderBottomColor: 'yellow',
                   },
                   '& .MuiOutlinedInput-root': {
                     '& fieldset': {
-                      borderColor: 'black',
+                      borderColor: 'grey',
                     },
                     '&:hover fieldset': {
                       borderColor: '#ECF1F2',

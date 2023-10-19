@@ -1,6 +1,8 @@
 import React from 'react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Home from '../src/pageComponents/Home/home.js';
+import Contact from '../src/pageComponents/Contact/contact.js';
+import { Routes, Route } from 'react-router-dom';
 
 const theme = createTheme({
   shape: {
@@ -27,7 +29,13 @@ const theme = createTheme({
 function App() {
   return (
     <ThemeProvider theme={theme}>
-      <Home />
+      <Routes>
+      <Route path='/' element={<Home />}/>
+      <Route
+            path='/contact'
+            element={<Contact />}
+          />
+      </Routes>
     </ThemeProvider>
   );
 }
