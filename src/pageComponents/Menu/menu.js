@@ -19,7 +19,7 @@ const drawerWidth = 240;
 const navItems = [
   { text: 'Home', href: '/' },
   { text: 'Contact', href: '/contact' },
-  { text: 'Reviews', href: '/reviews' },
+  { text: 'How It Works', href: '/howitworks' },
   { text: 'Team', href: '/team' },
   { text: 'Gallery', href: '/gallery' },
 ];
@@ -105,7 +105,6 @@ export default function NavBar(props) {
                   fontFamily: 'Lemon',
                   textTransform: 'none',
                   color: 'white',
-                  
                 }}
                 to={item.href}
               >
