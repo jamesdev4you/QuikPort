@@ -3,6 +3,7 @@ import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Home from '../src/pageComponents/Home/home.js';
 import Contact from '../src/pageComponents/Contact/contact.js';
 import Howitworks from '../src/pageComponents/HowItWorks/howitworks.js';
+import CostAmount from '../src/pageComponents/CostAmount/costAmount.js';
 import { Routes, Route } from 'react-router-dom';
 
 const theme = createTheme({
@@ -34,6 +35,7 @@ function App() {
         <Route path='/' element={<Home />} />
         <Route path='/contact' element={<Contact />} />
         <Route path='/howitworks' element={<Howitworks />} />
+        <Route path='/costamount' element={<CostAmount />} />
       </Routes>
     </ThemeProvider>
   );

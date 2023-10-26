@@ -30,7 +30,7 @@ const howHeader = () => {
       >
         <Typography
           sx={{
-            fontSize: '104px',
+            fontSize: '124px',
             color: '#ECF1F2',
             width: '90%',
             fontFamily: 'Lemon',

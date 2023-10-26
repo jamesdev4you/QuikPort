@@ -20,7 +20,7 @@ const navItems = [
   { text: 'Home', href: '/' },
   { text: 'Contact', href: '/contact' },
   { text: 'How It Works', href: '/howitworks' },
-  { text: 'Team', href: '/team' },
+  { text: 'Cost Amount', href: '/costamount' },
   { text: 'Gallery', href: '/gallery' },
 ];
 
