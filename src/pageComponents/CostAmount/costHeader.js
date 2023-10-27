@@ -64,7 +64,7 @@ const costHeader = () => {
           padding: '15px',
           borderRadius: '15px',
           width: '23%',
-          height: '19em',
+          height: '22em',
           marginTop: '60px',
           boxShadow:
             'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
@@ -140,6 +140,47 @@ const costHeader = () => {
               <TextField
                 label='Transport car TO'
                 placeholder='Zip code'
+                variant='filled'
+                fullWidth
+                required
+                color='secondary'
+                sx={{
+                  '& .MuiFilledInput-root': {
+                    backgroundColor: 'white',
+                  },
+                  '& label.Mui-focused': {
+                    color: '#1B1E1E',
+                  },
+                  '& .MuiFormLabel-root': {
+                    color: 'grey',
+                  },
+                  '& .MuiFormLabel-root.Mui-focused': {
+                    color: 'black',
+                  },
+                  '& .MuiInput-underline:after': {
+                    borderBottomColor: 'yellow',
+                  },
+                  '& .MuiOutlinedInput-root': {
+                    '& fieldset': {
+                      borderColor: 'black',
+                    },
+                    '&:hover fieldset': {
+                      borderColor: '#ECF1F2',
+                    },
+                    '&.Mui-focused fieldset': {
+                      borderColor: 'yellow',
+                    },
+                  },
+                  '& .MuiInputBase-root': {
+                    color: 'grey',
+                  },
+                }}
+              />
+            </Grid>
+            <Grid xs={12} item sx={{ marginRight: 'auto' }}>
+              <TextField
+                label='Phone Number'
+                placeholder='Phone'
                 variant='filled'
                 fullWidth
                 required

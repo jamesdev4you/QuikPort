@@ -21,7 +21,6 @@ const navItems = [
   { text: 'Contact', href: '/contact' },
   { text: 'How It Works', href: '/howitworks' },
   { text: 'Cost Amount', href: '/costamount' },
-  { text: 'Gallery', href: '/gallery' },
 ];
 
 export default function NavBar(props) {
