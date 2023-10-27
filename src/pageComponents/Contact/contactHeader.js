@@ -30,23 +30,22 @@ const contactHeader = () => {
       >
         <Typography
           sx={{
-            fontSize: '104px',
+            fontSize: {xl: '64px', lg: '68px', md: '38px'},
             color: '#ECF1F2',
-            textAlign: 'left',
             width: '90%',
             fontFamily: 'Lemon',
             textAlign: 'center',
+            paddingTop: {xl: '64px', lg: '.5em', md: '38px'},
           }}
         >
           Transportation Done Right
         </Typography>
         <Typography
           sx={{
-            fontSize: '64px',
             color: '#ECF1F2',
-            textAlign: 'left',
             width: '88%',
             fontFamily: 'Lemon',
+            fontSize: {xl: '64px', lg: '56px', md: '38px'},
             textAlign: 'center',
           }}
         >

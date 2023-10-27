@@ -1,15 +1,16 @@
 import React from 'react';
-import { Typography, Grid, TextField, Button } from '@mui/material';
+import { Typography, Grid, TextField, Button, Box } from '@mui/material';
 
 export default function ContactForm() {
   return (
-    <div
-      style={{
+    <Box
+      sx={{
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
         flexDirection: 'column',
         backgroundColor: 'white',
+        width: {xl: 'auto', lg: '50vw'},
         padding: '20px',
         borderRadius: '15px',
         border: '3px solid gold',
@@ -248,6 +249,6 @@ export default function ContactForm() {
           </Grid>
         </Grid>
       </form>
-    </div>
+    </Box>
   );
 }

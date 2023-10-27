@@ -8,7 +8,7 @@ import { ReactComponent as Support } from '../../assets/support.svg';
 const homeBenefits = () => {
   const benefitsOptions = [
     {
-      title: 'Safe and Secure Care',
+      title: 'Safe & Secure Care',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
       logo: CarWash,
     },
@@ -68,14 +68,15 @@ const homeBenefits = () => {
               component={logo}
               inheritViewBox
               sx={{
-                height: '50px',
-                width: '50px',
+                height: '40px',
+                width: '40px',
                 color: 'gold',
               }}
             />
             <Typography
-              variant='h5'
+              
               sx={{
+                fontSize: {xl: '54px', lg: '20px', md: '22px'},
                 color: 'gold',
                 borderBottom: '1px solid gold',
                 width: '100%',
@@ -89,9 +90,10 @@ const homeBenefits = () => {
             </Typography>
           </Box>
           <Typography
-            variant='h6'
+            
             sx={{
               color: 'white',
+              fontSize: {xl: '54px', lg: '14px', md: '22px'},
               width: '100%',
               textAlign: 'center',
               marginTop: '.3em',

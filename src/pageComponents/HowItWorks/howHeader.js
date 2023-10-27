@@ -29,22 +29,23 @@ const howHeader = () => {
         }}
       >
         <Typography
-          sx={{
-            fontSize: '124px',
-            color: '#ECF1F2',
-            width: '90%',
-            fontFamily: 'Lemon',
-            textAlign: 'center',
+            sx={{
+              color: 'white',
+              fontFamily: 'Lemon',
+              paddingTop: {xl:'none', lg: '1em'},
+              fontSize: {xl: '64px', lg: '68px', md: '38px'},
+              paddingBottom: '.2em',
+              borderBottom: {xl:'3px solid gold', lg: 'none'}
           }}
         >
           HOW IT ALL WORKS
         </Typography>
         <Typography
           sx={{
-            fontSize: '44px',
             color: '#ECF1F2',
             width: '88%',
             fontFamily: 'Lemon',
+            fontSize: {xl: '64px', lg: '40px', md: '38px'},
             textAlign: 'center',
           }}
         >

@@ -38,7 +38,7 @@ const header = () => {
       >
         <Typography
           sx={{
-            fontSize: '64px',
+            fontSize: {xl: '64px', lg: '48px', md: '38px'},
             color: '#ECF1F2',
             textAlign: 'left',
             width: '90%',
@@ -48,9 +48,9 @@ const header = () => {
           Transportation Done Right
         </Typography>
         <Typography
-          variant='h4'
           sx={{
             color: '#ECF1F2',
+            fontSize: {xl: '54px', lg: '30px', md: '22px'},
             textAlign: 'left',
             width: '88%',
             fontFamily: 'Lemon',
@@ -69,16 +69,16 @@ const header = () => {
           border: '2px solid gold',
           padding: '15px',
           borderRadius: '15px',
-          width: '23%',
-          height: '22em',
+          width: {xl:'23%', lg: '28%'},
+          height: {xl:'23vh', lg: '40vh'},
           marginTop: '60px',
           boxShadow:
             'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
         }}
       >
         <Typography
-          variant='h4'
           sx={{
+            fontSize: {xl: '54px', lg: '30px', md: '22px'},
             color: 'white',
             width: '100%',
             textAlign: 'left',
@@ -95,6 +95,7 @@ const header = () => {
             color: 'white',
             marginBottom: '15px',
             ffontFamily: 'Lemon',
+            fontSize: {xl: '54px', lg: '12px', md: '22px'},
           }}
         >
           <span style={{ color: 'red' }}>*</span> INDICATES REQUIRED FIELD!
@@ -112,6 +113,9 @@ const header = () => {
                 sx={{
                   '& .MuiFilledInput-root': {
                     backgroundColor: 'white',
+                    height: '50px',
+                    paddingBottom: '5px',
+                    borderRadius: '5px'
                   },
                   '& label.Mui-focused': {
                     color: '#1B1E1E',
@@ -179,6 +183,9 @@ const header = () => {
                   },
                   '& .MuiInputBase-root': {
                     color: 'grey',
+                    height: '50px',
+                    paddingBottom: '5px',
+                    borderRadius: '5px'
                   },
                 }}
               />
@@ -194,6 +201,10 @@ const header = () => {
                 sx={{
                   '& .MuiFilledInput-root': {
                     backgroundColor: 'white',
+               
+                    height: '50px',
+                    paddingBottom: '5px',
+                    borderRadius: '5px'
                   },
                   '& label.Mui-focused': {
                     color: '#1B1E1E',
@@ -219,7 +230,7 @@ const header = () => {
                     },
                   },
                   '& .MuiInputBase-root': {
-                    color: 'grey',
+                    color: 'grey'
                   },
                 }}
               />
@@ -232,6 +243,9 @@ const header = () => {
                 fullWidth
                 color='primary'
                 sx={{
+                  height: '30px',
+                  paddingBottom: '5px',
+                  borderRadius: '5px',
                   backgroundColor: 'gold',
                   '&:hover': {
                     backgroundColor: '#e7c300',

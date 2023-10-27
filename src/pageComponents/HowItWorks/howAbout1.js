@@ -1,10 +1,12 @@
 import React from 'react';
 import { Box, Typography, Button, SvgIcon } from '@mui/material';
-import Ferrari from '../../assets/homeabout.jpg';
+import Ferrari from '../../assets/How1.jpg';
 import '../../index.css';
 import { ReactComponent as One } from '../../assets/one.svg';
 
 const howAbout1 = () => {
+
+
   return (
     <Box
       sx={{
@@ -40,39 +42,19 @@ const howAbout1 = () => {
           gap: '1em',
         }}
       >
-        <Typography
+    
+                 <Typography
           variant='h4'
-          sx={{
-            textAlign: 'left',
-            width: '100%',
-            fontFamily: 'Lemon',
-            color: 'white',
-          }}
+          sx={{ color: 'white', textAlign: 'left', width: '100%', fontFamily: 'Lemon', fontSize: {xl: '24px', lg: '28px', md: '38px'}, }}
         >
-          <SvgIcon
-            component={One}
-            inheritViewBox
-            sx={{
-              height: '30px',
-              width: '30px',
-              color: 'white',
-              marginRight: '15px',
-            }}
-          />
-          More About QuikPort
+          Fill Out Form
         </Typography>
-        <Typography
-          variant='h6'
-          sx={{ textAlign: 'left', width: '100%', color: 'white' }}
-        >
+        <Typography  sx={{ color: 'white',textAlign: 'left', width: '100%', fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.{' '}
         </Typography>
-        <Typography
-          variant='h6'
-          sx={{ textAlign: 'left', width: '100%', color: 'white' }}
-        >
+        <Typography  sx={{ color: 'white',textAlign: 'left', width: '100%',fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,

@@ -29,16 +29,16 @@ const homeAbout2 = () => {
       >
         <Typography
           variant='h4'
-          sx={{ textAlign: 'left', width: '100%', fontFamily: 'Lemon' }}
+          sx={{ textAlign: 'left', width: '100%', fontFamily: 'Lemon', fontSize: {xl: '24px', lg: '28px', md: '38px'}, }}
         >
           More About QuikPort
         </Typography>
-        <Typography variant='h6' sx={{ textAlign: 'left', width: '100%' }}>
+        <Typography  sx={{ textAlign: 'left', width: '100%', fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.{' '}
         </Typography>
-        <Typography variant='h6' sx={{ textAlign: 'left', width: '100%' }}>
+        <Typography  sx={{ textAlign: 'left', width: '100%',fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,

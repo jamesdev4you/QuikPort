@@ -1,6 +1,6 @@
 import React from 'react';
 import { Box, Typography, Button } from '@mui/material';
-import Ferrari from '../../assets/homeabout2.jpg';
+import Ferrari from '../../assets/About2.jpg';
 import '../../index.css';
 
 const costAbout2 = () => {
@@ -27,29 +27,18 @@ const costAbout2 = () => {
           gap: '1em',
         }}
       >
-        <Typography
+                <Typography
           variant='h4'
-          sx={{
-            textAlign: 'left',
-            width: '100%',
-            fontFamily: 'Lemon',
-            color: 'white',
-          }}
+          sx={{ color: 'white',textAlign: 'left', width: '100%', fontFamily: 'Lemon', fontSize: {xl: '24px', lg: '28px', md: '38px'}, }}
         >
-          More About QuikPort
+          Miles To & From
         </Typography>
-        <Typography
-          variant='h6'
-          sx={{ textAlign: 'left', width: '100%', color: 'white' }}
-        >
+        <Typography  sx={{ color: 'white',textAlign: 'left', width: '100%', fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.{' '}
         </Typography>
-        <Typography
-          variant='h6'
-          sx={{ textAlign: 'left', width: '100%', color: 'white' }}
-        >
+        <Typography  sx={{ color: 'white',textAlign: 'left', width: '100%',fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,

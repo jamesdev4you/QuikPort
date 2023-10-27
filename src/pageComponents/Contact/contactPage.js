@@ -9,7 +9,7 @@ const contactPage = () => {
     <Box
       sx={{
         width: '100%',
-        height: '95vh',
+        height: {xl: '95vh', lg: '110vh'},
         backgroundColor: 'black',
         display: 'flex',
         flexDirection: 'column',
@@ -21,7 +21,7 @@ const contactPage = () => {
         sx={{
           color: 'white',
           height: '20vh',
-          width: '40%',
+          width: '100%',
           textAlign: 'center',
           display: 'flex',
           flexDirection: 'column',
@@ -30,12 +30,13 @@ const contactPage = () => {
         }}
       >
         <Typography
-          variant='h2'
+
           sx={{
             color: 'white',
             fontFamily: 'Lemon',
+            fontSize: {xl: '64px', lg: '68px', md: '38px'},
             paddingBottom: '.2em',
-            borderBottom: '3px solid gold',
+            borderBottom: {xl:'3px solid gold', lg: 'none'}
           }}
         >
           Contact Us Today!
@@ -55,8 +56,8 @@ const contactPage = () => {
       >
         <Box
           sx={{
-            height: '400px',
-            width: '400px',
+            height:{xl: '400px', lg: '200px'},
+            width:{xl: '400px', lg: '200px'},
             backgroundImage: `url(${ContactCarLeft})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
@@ -67,14 +68,14 @@ const contactPage = () => {
           }}
         />
 
-        <Box sx={{ height: '75vh', width: '35%' }}>
+        <Box sx={{ height: '75vh', width: 'auto%' }}>
           <ContactForm />
         </Box>
 
         <Box
           sx={{
-            height: '400px',
-            width: '400px',
+            height:{xl: '400px', lg: '200px'},
+            width:{xl: '400px', lg: '200px'},
             backgroundImage: `url(${ContactCarRight})`,
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
