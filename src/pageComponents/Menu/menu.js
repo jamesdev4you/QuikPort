@@ -37,9 +37,13 @@ export default function NavBar(props) {
     >
       <img src={Logo} alt='yooo' style={{ height: '150px', width: '150px' }} />
       <Divider sx={{ backgroundColor: 'white' }} />
-      <List>
+      <List sx={{ backgroundColor: 'black' }}>
         {navItems.map((item) => (
-          <ListItem key={item.text} sx={{ margin: '15px 0px' }} disablePadding>
+          <ListItem
+            key={item.text}
+            sx={{ margin: '15px 0px', backgroundColor: 'black' }}
+            disablePadding
+          >
             <NavLink
               style={{
                 textDecoration: 'none',
@@ -61,16 +65,20 @@ export default function NavBar(props) {
   return (
     <Box sx={{ flexGrow: 1 }}>
       <CssBaseline />
-      <AppBar component='nav'>
+      <AppBar component='nav' sx={{ backgroundColor: 'black' }}>
         <Toolbar sx={{ backgroundColor: 'black' }}>
           <IconButton
             color='inherit'
             aria-label='open drawer'
             edge='start'
             onClick={handleDrawerToggle}
-            sx={{ mr: 2, display: { sm: 'block', md: 'none' } }}
+            sx={{
+              mr: 2,
+              display: { sm: 'block', md: 'none' },
+              backgroundColor: 'black',
+            }}
           >
-            <MenuIcon />
+            <MenuIcon sx={{ color: 'white' }} />
           </IconButton>
           <Box
             alt='yooo'
@@ -113,7 +121,7 @@ export default function NavBar(props) {
           </Box>
         </Toolbar>
       </AppBar>
-      <Box component='nav'>
+      <Box component='nav' sx={{ backgroundColor: 'black' }}>
         <Drawer
           variant='temporary'
           open={mobileOpen}
@@ -126,7 +134,7 @@ export default function NavBar(props) {
             '& .MuiDrawer-paper': {
               boxSizing: 'border-box',
               width: drawerWidth,
-              backgroundColor: 'white',
+              backgroundColor: 'black',
             },
           }}
         >
