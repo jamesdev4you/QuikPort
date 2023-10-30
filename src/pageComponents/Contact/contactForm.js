@@ -1,7 +1,53 @@
-import React from 'react';
-import { Typography, Grid, TextField, Button, Box } from '@mui/material';
+import React, { useRef, useState } from 'react';
+import emailjs from '@emailjs/browser';
+
+import {
+  Typography,
+  Grid,
+  TextField,
+  Button,
+  Box,
+  Snackbar,
+} from '@mui/material';
 
 export default function ContactForm() {
+  const [firstName, setFirstName] = useState('');
+  const [lastName, setLastName] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [message, setMessage] = useState('');
+  const [email, setEmail] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_q2vyb18',
+        'template_ubcum2e',
+        form.current,
+        'JSvFbDMLyPw-He7QZ'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log('message sent');
+
+          setFirstName('');
+          setLastName('');
+          setPhoneNumber('');
+          setMessage('');
+          setEmail('');
+          setIsSubmitted(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <Box
       sx={{
@@ -52,6 +98,8 @@ export default function ContactForm() {
         style={{
           paddingTop: '5px',
         }}
+        ref={form}
+        onSubmit={sendEmail}
       >
         <Grid container spacing={2}>
           <Grid xs={12} item sx={{ marginRight: 'auto' }}>
@@ -62,6 +110,8 @@ export default function ContactForm() {
               variant='outlined'
               fullWidth
               required
+              value={firstName}
+              onInput={(e) => setFirstName(e.target.value)}
               color='secondary'
               sx={{
                 '& label.Mui-focused': {
@@ -100,6 +150,8 @@ export default function ContactForm() {
               placeholder='Enter Last Name'
               variant='outlined'
               fullWidth
+              value={lastName}
+              onInput={(e) => setLastName(e.target.value)}
               color='error'
               sx={{
                 '& label.Mui-focused': {
@@ -140,6 +192,8 @@ export default function ContactForm() {
               variant='outlined'
               fullWidth
               required
+              value={email}
+              onInput={(e) => setEmail(e.target.value)}
               color='error'
               sx={{
                 '& label.Mui-focused': {
@@ -180,6 +234,8 @@ export default function ContactForm() {
               variant='outlined'
               fullWidth
               required
+              value={phoneNumber}
+              onInput={(e) => setPhoneNumber(e.target.value)}
               color='error'
               sx={{
                 '& label.Mui-focused': {
@@ -221,6 +277,8 @@ export default function ContactForm() {
               variant='outlined'
               fullWidth
               required
+              value={message}
+              onInput={(e) => setMessage(e.target.value)}
               color='error'
               sx={{
                 '& label.Mui-focused': {
@@ -271,6 +329,18 @@ export default function ContactForm() {
           </Grid>
         </Grid>
       </form>
+      {isSubmitted && (
+        <Snackbar
+          anchorOrigin={{
+            vertical: 'bottom',
+            horizontal: 'left',
+          }}
+          open={isSubmitted}
+          autoHideDuration={6000}
+          onClose={() => setIsSubmitted(false)}
+          message='We will get back to you shortly!'
+        />
+      )}
     </Box>
   );
 }

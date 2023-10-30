@@ -153,6 +153,7 @@ const costAbout3 = () => {
             marginRight: 'auto',
             '&:hover': { color: 'white' },
           }}
+          href='/contact'
         >
           {' '}
           Start Today!

@@ -18,6 +18,7 @@ const MyStyledButton = (props) => (
       border: '2px solid #F5DE6D',
       marginTop: 'auto',
     }}
+    href='/contact'
   >
     Book Today!
   </Button>

@@ -1,10 +1,44 @@
-import React from 'react';
+import React, { useRef, useState } from 'react';
 import Box from '@mui/material/Box';
 import CostHeader from '../../assets/costHeader.jpg';
-import { Typography, TextField, Grid, Button } from '@mui/material';
+import { Typography, TextField, Grid, Button, Snackbar } from '@mui/material';
 import '../../index.css';
+import emailjs from '@emailjs/browser';
 
-const costHeader = () => {
+const Costheader = () => {
+  const [toZip, setToZip] = useState('');
+  const [fromZip, setFromZip] = useState('');
+  const [phoneNumber, setPhoneNumber] = useState('');
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  const form = useRef();
+
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        'service_q2vyb18',
+        'template_37odo6o',
+        form.current,
+        'JSvFbDMLyPw-He7QZ'
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          console.log('message sent');
+
+          setToZip('');
+          setFromZip('');
+          setPhoneNumber('');
+          setIsSubmitted(true);
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
+
   return (
     <Box
       sx={{
@@ -155,15 +189,18 @@ const costHeader = () => {
         >
           <span style={{ color: 'red' }}>*</span> INDICATES REQUIRED FIELD!
         </Typography>
-        <form>
+        <form ref={form} onSubmit={sendEmail}>
           <Grid container spacing={1}>
             <Grid xs={12} item sx={{ marginRight: 'auto' }}>
               <TextField
+                name='user_toZip'
                 label='Transport car FROM'
                 placeholder='Zip code'
                 variant='filled'
                 fullWidth
                 required
+                value={toZip}
+                onInput={(e) => setToZip(e.target.value)}
                 color='secondary'
                 sx={{
                   '& .MuiFilledInput-root': {
@@ -203,11 +240,14 @@ const costHeader = () => {
             </Grid>
             <Grid xs={12} item sx={{ marginRight: 'auto' }}>
               <TextField
+                name='user_fromzip'
                 label='Transport car TO'
                 placeholder='Zip code'
                 variant='filled'
                 fullWidth
                 required
+                value={fromZip}
+                onInput={(e) => setFromZip(e.target.value)}
                 color='secondary'
                 sx={{
                   '& .MuiFilledInput-root': {
@@ -247,11 +287,14 @@ const costHeader = () => {
             </Grid>
             <Grid xs={12} item sx={{ marginRight: 'auto' }}>
               <TextField
+                name='user_phoneNumber'
                 label='Phone Number'
                 placeholder='Phone'
                 variant='filled'
                 fullWidth
                 required
+                value={phoneNumber}
+                onInput={(e) => setPhoneNumber(e.target.value)}
                 color='secondary'
                 sx={{
                   '& .MuiFilledInput-root': {
@@ -312,9 +355,21 @@ const costHeader = () => {
             </Grid>
           </Grid>
         </form>
+        {isSubmitted && (
+          <Snackbar
+            anchorOrigin={{
+              vertical: 'bottom',
+              horizontal: 'left',
+            }}
+            open={isSubmitted}
+            autoHideDuration={6000}
+            onClose={() => setIsSubmitted(false)}
+            message='We will get back to you shortly!'
+          />
+        )}
       </Box>
     </Box>
   );
 };
 
-export default costHeader;
+export default Costheader;
