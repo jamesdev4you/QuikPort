@@ -8,7 +8,13 @@ const contactHeader = () => {
     <Box
       sx={{
         width: '100%',
-        height: '65vh',
+        height: {
+          xl: '65vh',
+          lg: '65vh',
+          md: '65vh',
+          sm: '45vh',
+          xs: '35vh',
+        },
         backgroundImage: `url(${RangeRover})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -30,12 +36,25 @@ const contactHeader = () => {
       >
         <Typography
           sx={{
-            fontSize: {xl: '64px', lg: '68px', md: '38px'},
+            fontSize: {
+              xl: '64px',
+              lg: '68px',
+              md: '38px',
+              sm: '38px',
+              xs: '18px',
+            },
             color: '#ECF1F2',
             width: '90%',
             fontFamily: 'Lemon',
             textAlign: 'center',
-            paddingTop: {xl: '64px', lg: '.5em', md: '38px'},
+            paddingTop: {
+              xl: '64px',
+              lg: '.5em',
+              md: '38px',
+              sm: '70px',
+              xs: '150px',
+            },
+            borderBottom: '1px solid gold',
           }}
         >
           Transportation Done Right
@@ -45,7 +64,13 @@ const contactHeader = () => {
             color: '#ECF1F2',
             width: '88%',
             fontFamily: 'Lemon',
-            fontSize: {xl: '64px', lg: '56px', md: '38px'},
+            fontSize: {
+              xl: '64px',
+              lg: '56px',
+              md: '38px',
+              sm: '38px',
+              xs: '18px',
+            },
             textAlign: 'center',
           }}
         >

@@ -9,7 +9,7 @@ const contactPage = () => {
     <Box
       sx={{
         width: '100%',
-        height: {xl: '95vh', lg: '110vh'},
+        height: { xl: '95vh', lg: '110vh' },
         backgroundColor: 'black',
         display: 'flex',
         flexDirection: 'column',
@@ -30,13 +30,18 @@ const contactPage = () => {
         }}
       >
         <Typography
-
           sx={{
             color: 'white',
             fontFamily: 'Lemon',
-            fontSize: {xl: '64px', lg: '68px', md: '38px'},
             paddingBottom: '.2em',
-            borderBottom: {xl:'3px solid gold', lg: 'none'}
+            borderBottom: '3px solid gold',
+            fontSize: {
+              xl: '56px',
+              lg: '46px',
+              md: '46px',
+              sm: '46px',
+              xs: '28px',
+            },
           }}
         >
           Contact Us Today!
@@ -56,9 +61,16 @@ const contactPage = () => {
       >
         <Box
           sx={{
-            height:{xl: '400px', lg: '200px'},
-            width:{xl: '400px', lg: '200px'},
+            height: { xl: '400px', lg: '200px' },
+            width: { xl: '400px', lg: '200px' },
             backgroundImage: `url(${ContactCarLeft})`,
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'flex',
+              sm: 'none',
+              xs: 'none',
+            },
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             backgroundPosition: 'bottom',
@@ -74,9 +86,16 @@ const contactPage = () => {
 
         <Box
           sx={{
-            height:{xl: '400px', lg: '200px'},
-            width:{xl: '400px', lg: '200px'},
+            height: { xl: '400px', lg: '200px' },
+            width: { xl: '400px', lg: '200px' },
             backgroundImage: `url(${ContactCarRight})`,
+            display: {
+              xl: 'flex',
+              lg: 'flex',
+              md: 'flex',
+              sm: 'none',
+              xs: 'none',
+            },
             backgroundRepeat: 'no-repeat',
             backgroundSize: 'cover',
             backgroundPosition: 'center',

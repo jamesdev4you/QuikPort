@@ -33,7 +33,13 @@ const homeWhyUs = () => {
     <Box
       sx={{
         width: '100%',
-        height: '100vh',
+        height: {
+          xl: '100vh',
+          lg: '100vh',
+          md: 'auto',
+          sm: 'auto',
+          xs: 'auto',
+        },
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'start',
@@ -44,7 +50,13 @@ const homeWhyUs = () => {
       <Box
         sx={{
           color: 'white',
-          height: '30vh',
+          height: {
+            xl: '30vh',
+            lg: '30vh',
+            md: '30vh',
+            sm: '20vh',
+            xs: '20vh',
+          },
           width: '100%',
           textAlign: 'center',
           display: 'flex',
@@ -59,7 +71,13 @@ const homeWhyUs = () => {
             fontFamily: 'Lemon',
             paddingBottom: '.2em',
             borderBottom: '3px solid gold',
-            fontSize: { xl: '64px', lg: '58px', md: '38px' },
+            fontSize: {
+              xl: '56px',
+              lg: '46px',
+              md: '46px',
+              sm: '46px',
+              xs: '28px',
+            },
           }}
         >
           How It All Works
@@ -67,18 +85,51 @@ const homeWhyUs = () => {
       </Box>
       <Box
         sx={{
-          height: '70vh',
+          height: {
+            xl: '70vh',
+            lg: '70vh',
+            md: 'auto',
+            sm: 'auto',
+            xs: 'auto',
+          },
           width: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
           gap: '50px',
+          flexDirection: {
+            xl: 'row',
+            lg: 'row',
+            md: 'column',
+            sm: 'column',
+            xs: 'column',
+          },
+          marginTop: {
+            xl: '0px',
+            lg: '0px',
+            md: '25px',
+            sm: '25px',
+            xs: '25px',
+          },
+          marginBottom: {
+            xl: '0px',
+            lg: '0px',
+            md: '25px',
+            sm: '25px',
+            xs: '25px',
+          },
         }}
       >
         {steps.map(({ title, desc, icon, color, button }) => (
           <Box
             sx={{
-              width: '28%',
+              width: {
+                xl: '30%',
+                lg: '30%',
+                md: '65%',
+                sm: '80%',
+                xs: '90%',
+              },
               padding: '.5em',
               height: '60vh',
               backgroundColor: '#ffffff',
@@ -96,8 +147,20 @@ const homeWhyUs = () => {
               component={icon}
               inheritViewBox
               sx={{
-                height: { xl: '100px', lg: '70px' },
-                width: { xl: '100px', lg: '70px' },
+                height: {
+                  xl: '100px',
+                  lg: '70px',
+                  md: '100px',
+                  sm: '100px',
+                  xs: '100px',
+                },
+                width: {
+                  xl: '100px',
+                  lg: '70px',
+                  md: '100px',
+                  sm: '100px',
+                  xs: '100px',
+                },
                 color: '#000000',
               }}
             />
@@ -110,7 +173,7 @@ const homeWhyUs = () => {
                 textAlign: 'center',
                 borderBottom: '3px solid black',
                 fontFamily: 'Lemon',
-                fontSize: { xl: '40px', lg: '28px', md: '38px' },
+                fontSize: { xl: '40px', lg: '28px', md: '38px', sm: '38px' },
               }}
             >
               {title}
@@ -122,7 +185,13 @@ const homeWhyUs = () => {
                 paddingBottom: '.2em',
                 width: '90%',
                 textAlign: 'left',
-                fontSize: { xl: '18px', lg: '16px', md: '38px' },
+                fontSize: {
+                  xl: '18px',
+                  lg: '16px',
+                  md: '22px',
+                  sm: '18px',
+                  xs: '14px',
+                },
               }}
             >
               {desc}
@@ -134,7 +203,13 @@ const homeWhyUs = () => {
                 paddingBottom: { xl: '.2em', lg: '.2px' },
                 width: '90%',
                 textAlign: 'left',
-                fontSize: { xl: '18px', lg: '16px', md: '38px' },
+                fontSize: {
+                  xl: '18px',
+                  lg: '16px',
+                  md: '22px',
+                  sm: '18px',
+                  xs: '16px',
+                },
               }}
             >
               {desc}

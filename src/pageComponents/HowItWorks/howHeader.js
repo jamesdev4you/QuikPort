@@ -8,7 +8,13 @@ const howHeader = () => {
     <Box
       sx={{
         width: '100%',
-        height: '65vh',
+        height: {
+          xl: '65vh',
+          lg: '65vh',
+          md: '65vh',
+          sm: '45vh',
+          xs: '45vh',
+        },
         backgroundImage: `url(${HowHeaderImage})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
@@ -30,27 +36,45 @@ const howHeader = () => {
       >
         <Typography
           sx={{
-            color: 'white',
+            fontSize: {
+              xl: '64px',
+              lg: '68px',
+              md: '38px',
+              sm: '38px',
+              xs: '18px',
+            },
+            color: '#ECF1F2',
+            width: '90%',
             fontFamily: 'Lemon',
-            paddingTop: { xl: 'none', lg: '1em' },
-            fontSize: { xl: '64px', lg: '68px', md: '38px' },
-            paddingBottom: '.2em',
-            borderBottom: { xl: '3px solid gold', lg: 'none' },
+            textAlign: 'center',
+            paddingTop: {
+              xl: '64px',
+              lg: '.5em',
+              md: '38px',
+              sm: '70px',
+              xs: '150px',
+            },
+            borderBottom: '1px solid gold',
           }}
         >
-          HOW IT ALL WORKS
+          Transportation Done Right
         </Typography>
         <Typography
           sx={{
             color: '#ECF1F2',
             width: '88%',
             fontFamily: 'Lemon',
-            fontSize: { xl: '54px', lg: '40px', md: '38px' },
+            fontSize: {
+              xl: '64px',
+              lg: '56px',
+              md: '38px',
+              sm: '38px',
+              xs: '18px',
+            },
             textAlign: 'center',
-            paddingTop: '.3em',
           }}
         >
-          See how we securely ship your vehicle today!
+          Secure your vehicle shipping today!
         </Typography>
       </Box>
     </Box>

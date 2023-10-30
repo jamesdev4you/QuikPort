@@ -15,11 +15,25 @@ const header = () => {
     <Box
       sx={{
         width: '100%',
-        height: '65vh',
+        height: {
+          xl: '65vh',
+          lg: '65vh',
+          md: 'auto',
+          sm: 'auto',
+          xs: 'auto',
+        },
+        paddingBottom: '15px',
         backgroundImage: `url(${Ferrari})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        flexDirection: {
+          xl: 'row',
+          lg: 'row',
+          md: 'column',
+          sm: 'column',
+          xs: 'column',
+        },
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'start',
@@ -31,16 +45,46 @@ const header = () => {
           alignItems: 'center',
           justifyContent: 'start',
           flexDirection: 'column',
-          width: '65%',
-          height: '17em',
-          marginTop: '80px',
+          width: {
+            xl: '65%',
+            lg: '65%',
+            md: '100%',
+            sm: '100%',
+            xs: '100%',
+          },
+          height: {
+            xl: '17em',
+            lg: '17em',
+            md: '10em',
+            sm: '10em',
+            xs: '10em',
+          },
+          marginTop: {
+            xl: '80px',
+            lg: '80px',
+            md: '100px',
+            sm: '100px',
+            xs: '100px',
+          },
         }}
       >
         <Typography
           sx={{
-            fontSize: { xl: '64px', lg: '48px', md: '38px' },
+            fontSize: {
+              xl: '58px',
+              lg: '44px',
+              md: '38px',
+              sm: '26px',
+              xs: '26px',
+            },
             color: '#ECF1F2',
-            textAlign: 'left',
+            textAlign: {
+              xl: 'left',
+              lg: 'left',
+              md: 'center',
+              sm: 'center',
+              xs: 'center',
+            },
             width: '90%',
             fontFamily: 'Lemon',
           }}
@@ -50,8 +94,20 @@ const header = () => {
         <Typography
           sx={{
             color: '#ECF1F2',
-            fontSize: { xl: '44px', lg: '30px', md: '22px' },
-            textAlign: 'left',
+            fontSize: {
+              xl: '44px',
+              lg: '30px',
+              md: '22px',
+              sm: '26px',
+              xs: '18px',
+            },
+            textAlign: {
+              xl: 'left',
+              lg: 'left',
+              md: 'center',
+              sm: 'center',
+              xs: 'center',
+            },
             width: '88%',
             fontFamily: 'Lemon',
           }}
@@ -69,16 +125,22 @@ const header = () => {
           border: '2px solid gold',
           padding: '15px',
           borderRadius: '15px',
-          width: { xl: '23%', lg: '28%' },
-          height: { xl: '35vh', lg: '40vh' },
-          marginTop: '60px',
+          width: { xl: '23%', lg: '30%', md: '80%', sm: '90%', xs: '90%' },
+          height: { xl: '35vh', lg: '35vh' },
+          marginTop: {
+            xl: '60px',
+            lg: '60px',
+            md: '0px',
+            sm: '0px',
+            xs: '0px',
+          },
           boxShadow:
             'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
         }}
       >
         <Typography
           sx={{
-            fontSize: { xl: '34px', lg: '30px', md: '22px' },
+            fontSize: { xl: '30px', lg: '30px', md: '22px' },
             color: 'white',
             width: '100%',
             textAlign: 'left',

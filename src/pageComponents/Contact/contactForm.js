@@ -18,11 +18,33 @@ export default function ContactForm() {
           'rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px',
       }}
     >
-      <Typography variant='h2' sx={{ color: '#1B1E1E', fontFamily: 'Lemon' }}>
+      <Typography
+        sx={{
+          color: '#1B1E1E',
+          fontFamily: 'Lemon',
+          fontSize: {
+            xl: '30px',
+            lg: '30px',
+            md: '22px',
+            sm: '28px',
+            xs: '28px',
+          },
+        }}
+      >
         Get in Touch
       </Typography>
       <Typography
-        sx={{ fontSize: '16px', color: '#1B1E1E', fontFamily: 'Lemon' }}
+        sx={{
+          fontSize: {
+            xl: '30px',
+            lg: '30px',
+            md: '22px',
+            sm: '18px',
+            xs: '12px',
+          },
+          color: '#1B1E1E',
+          fontFamily: 'Lemon',
+        }}
       >
         <span style={{ color: 'red' }}>*</span> INDICATES REQUIRED FIELD!
       </Typography>
