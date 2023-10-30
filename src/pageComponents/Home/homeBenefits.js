@@ -74,9 +74,8 @@ const homeBenefits = () => {
               }}
             />
             <Typography
-              
               sx={{
-                fontSize: {xl: '54px', lg: '20px', md: '22px'},
+                fontSize: { xl: '26px', lg: '20px', md: '22px' },
                 color: 'gold',
                 borderBottom: '1px solid gold',
                 width: '100%',
@@ -90,10 +89,9 @@ const homeBenefits = () => {
             </Typography>
           </Box>
           <Typography
-            
             sx={{
               color: 'white',
-              fontSize: {xl: '54px', lg: '14px', md: '22px'},
+              fontSize: { xl: '20px', lg: '14px', md: '22px' },
               width: '100%',
               textAlign: 'center',
               marginTop: '.3em',

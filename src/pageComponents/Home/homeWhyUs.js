@@ -59,7 +59,7 @@ const homeWhyUs = () => {
             fontFamily: 'Lemon',
             paddingBottom: '.2em',
             borderBottom: '3px solid gold',
-            fontSize: {xl: '64px', lg: '58px', md: '38px'},
+            fontSize: { xl: '64px', lg: '58px', md: '38px' },
           }}
         >
           How It All Works
@@ -96,13 +96,12 @@ const homeWhyUs = () => {
               component={icon}
               inheritViewBox
               sx={{
-                height: {xl: '100px', lg:'70px'},
-                width: {xl: '100px', lg:'70px'},
+                height: { xl: '100px', lg: '70px' },
+                width: { xl: '100px', lg: '70px' },
                 color: '#000000',
               }}
             />
             <Typography
-              
               sx={{
                 color: 'black',
                 paddingTop: '.5em',
@@ -111,61 +110,31 @@ const homeWhyUs = () => {
                 textAlign: 'center',
                 borderBottom: '3px solid black',
                 fontFamily: 'Lemon',
-                fontSize: {xl: '64px', lg: '28px', md: '38px'},
+                fontSize: { xl: '40px', lg: '28px', md: '38px' },
               }}
             >
               {title}
             </Typography>
             <Typography
-              
               sx={{
                 color: 'black',
                 paddingTop: '.5em',
                 paddingBottom: '.2em',
                 width: '90%',
                 textAlign: 'left',
-                fontSize: {xl: '24px', lg: '16px', md: '38px'},
+                fontSize: { xl: '18px', lg: '16px', md: '38px' },
               }}
             >
               {desc}
             </Typography>
             <Typography
-              
               sx={{
                 color: 'black',
-                paddingTop: { xl: '.5em', lg: '.2px',},
-                paddingBottom:{ xl: '.2em', lg: '.2px',},
+                paddingTop: { xl: '.5em', lg: '.2px' },
+                paddingBottom: { xl: '.2em', lg: '.2px' },
                 width: '90%',
                 textAlign: 'left',
-                fontSize: {xl: '24px', lg: '16px', md: '38px'},
-              }}
-            >
-              {desc}
-            </Typography>
-            <Typography
-              
-              sx={{
-                color: 'black',
-                paddingTop: '.5em',
-                paddingBottom: '.2em',
-                width: '90%',
-                textAlign: 'left',
-                display: {xl: 'inline', lg: 'none'},
-                fontSize: {xl: '24px', lg: '16px', md: '38px'},
-              }}
-            >
-              {desc}
-            </Typography>
-            <Typography
-              
-              sx={{
-                fontSize: {xl: '24px', lg: '16px', md: '38px'},
-                color: 'black',
-                paddingTop: '.5em',
-                paddingBottom: '.2em',
-                width: '90%',
-                textAlign: 'left',
-                display: {xl: 'inline', lg: 'none'}
+                fontSize: { xl: '18px', lg: '16px', md: '38px' },
               }}
             >
               {desc}

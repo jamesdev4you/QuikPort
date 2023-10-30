@@ -10,7 +10,7 @@ export default function ContactForm() {
         justifyContent: 'center',
         flexDirection: 'column',
         backgroundColor: 'white',
-        width: {xl: 'auto', lg: '50vw'},
+        width: { xl: '40vw', lg: '50vw' },
         padding: '20px',
         borderRadius: '15px',
         border: '3px solid gold',

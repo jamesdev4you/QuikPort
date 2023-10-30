@@ -29,13 +29,13 @@ const howHeader = () => {
         }}
       >
         <Typography
-            sx={{
-              color: 'white',
-              fontFamily: 'Lemon',
-              paddingTop: {xl:'none', lg: '1em'},
-              fontSize: {xl: '64px', lg: '68px', md: '38px'},
-              paddingBottom: '.2em',
-              borderBottom: {xl:'3px solid gold', lg: 'none'}
+          sx={{
+            color: 'white',
+            fontFamily: 'Lemon',
+            paddingTop: { xl: 'none', lg: '1em' },
+            fontSize: { xl: '64px', lg: '68px', md: '38px' },
+            paddingBottom: '.2em',
+            borderBottom: { xl: '3px solid gold', lg: 'none' },
           }}
         >
           HOW IT ALL WORKS
@@ -45,8 +45,9 @@ const howHeader = () => {
             color: '#ECF1F2',
             width: '88%',
             fontFamily: 'Lemon',
-            fontSize: {xl: '64px', lg: '40px', md: '38px'},
+            fontSize: { xl: '54px', lg: '40px', md: '38px' },
             textAlign: 'center',
+            paddingTop: '.3em',
           }}
         >
           See how we securely ship your vehicle today!

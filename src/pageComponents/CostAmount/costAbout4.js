@@ -27,18 +27,38 @@ const costAbout4 = () => {
           gap: '1em',
         }}
       >
-               <Typography
+        <Typography
           variant='h4'
-          sx={{ color: 'white',textAlign: 'left', width: '100%', fontFamily: 'Lemon', fontSize: {xl: '24px', lg: '28px', md: '38px'}, }}
+          sx={{
+            color: 'white',
+            textAlign: 'left',
+            width: '100%',
+            fontFamily: 'Lemon',
+            fontSize: { xl: '24px', lg: '28px', md: '38px' },
+          }}
         >
           Make & Model
         </Typography>
-        <Typography  sx={{ color: 'white',textAlign: 'left', width: '100%', fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
+        <Typography
+          sx={{
+            color: 'white',
+            textAlign: 'left',
+            width: '100%',
+            fontSize: { xl: '22px', lg: '16px', md: '38px' },
+          }}
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.{' '}
         </Typography>
-        <Typography  sx={{ color: 'white',textAlign: 'left', width: '100%',fontSize: {xl: '24px', lg: '16px', md: '38px'}, }}>
+        <Typography
+          sx={{
+            color: 'white',
+            textAlign: 'left',
+            width: '100%',
+            fontSize: { xl: '22px', lg: '16px', md: '38px' },
+          }}
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
           pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
