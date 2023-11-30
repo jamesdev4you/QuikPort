@@ -1,5 +1,6 @@
 {
   "name": "quikport",
+  "homepage": "https://jamesdev4you.github.io/QuikPort/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
