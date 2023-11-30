@@ -92,7 +92,7 @@ const Header = () => {
             lg: '80px',
             md: '100px',
             sm: '100px',
-            xs: '100px',
+            xs: '130px',
           },
         }}
       >
@@ -103,7 +103,7 @@ const Header = () => {
               lg: '44px',
               md: '38px',
               sm: '26px',
-              xs: '26px',
+              xs: '30px',
             },
             color: '#ECF1F2',
             textAlign: {
@@ -127,7 +127,7 @@ const Header = () => {
               lg: '30px',
               md: '22px',
               sm: '26px',
-              xs: '18px',
+              xs: '26px',
             },
             textAlign: {
               xl: 'left',
@@ -135,6 +135,13 @@ const Header = () => {
               md: 'center',
               sm: 'center',
               xs: 'center',
+            },
+            display: {
+              xl: 'inline',
+              lg: 'inline',
+              md: 'inline',
+              sm: 'inline',
+              xs: 'none',
             },
             width: '88%',
             fontFamily: 'Lemon',

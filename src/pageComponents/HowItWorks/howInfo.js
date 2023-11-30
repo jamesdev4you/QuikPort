@@ -120,7 +120,7 @@ const howInfo = () => {
                   lg: '20px',
                   md: '32px',
                   sm: '32px',
-                  xs: '18px',
+                  xs: '20px',
                 },
                 color: 'gold',
                 borderBottom: '1px solid gold',

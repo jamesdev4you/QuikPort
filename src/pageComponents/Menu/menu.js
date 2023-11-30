@@ -48,7 +48,7 @@ export default function NavBar(props) {
               style={{
                 textDecoration: 'none',
                 color: 'white',
-                fontFamily: 'Ubuntu',
+                fontFamily: 'Lemon',
                 fontSize: '20px',
                 margin: 'auto',
               }}

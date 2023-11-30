@@ -92,7 +92,7 @@ const Costheader = () => {
             lg: '80px',
             md: '100px',
             sm: '100px',
-            xs: '100px',
+            xs: '130px',
           },
         }}
       >
@@ -135,6 +135,13 @@ const Costheader = () => {
               md: 'center',
               sm: 'center',
               xs: 'center',
+            },
+            display: {
+              xl: 'inline',
+              lg: 'inline',
+              md: 'inline',
+              sm: 'inline',
+              xs: 'none',
             },
             width: '88%',
             fontFamily: 'Lemon',

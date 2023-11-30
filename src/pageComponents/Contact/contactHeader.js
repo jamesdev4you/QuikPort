@@ -41,7 +41,7 @@ const contactHeader = () => {
               lg: '68px',
               md: '38px',
               sm: '38px',
-              xs: '18px',
+              xs: '22px',
             },
             color: '#ECF1F2',
             width: '90%',
@@ -69,7 +69,7 @@ const contactHeader = () => {
               lg: '56px',
               md: '38px',
               sm: '38px',
-              xs: '18px',
+              xs: '20px',
             },
             textAlign: 'center',
           }}
