@@ -150,7 +150,6 @@ const homeAbout3 = () => {
             marginRight: 'auto',
             '&:hover': { color: 'black' },
           }}
-          href='/contact'
         >
           {' '}
           Start Today!
