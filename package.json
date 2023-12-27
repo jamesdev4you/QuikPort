@@ -2,6 +2,10 @@
   "name": "quikport",
   "homepage": "https://jamesdev4you.github.io/quikport/",
   "version": "0.1.0",
+<<<<<<< Updated upstream
+=======
+  "homepage": "https://jamesdev4you.github.io/quikport/",
+>>>>>>> Stashed changes
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.11.1",
