@@ -9,21 +9,21 @@ const homeWhyUs = () => {
   const steps = [
     {
       title: 'Fill Out Form',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultrices orci, ut vulputate augue. Phasellus tincidunt enim at augue tempor finibus. Nulla at luctus libero, in pharetra.',
+      desc: 'Begin your cars journey across the USA with Quick Wheels. Fill out our easy form for fast, secure vehicle transport. Trust us for reliable, hassle-free service. Start now!',
       icon: One,
       color: 'black',
       button: <MyStyledButton />,
     },
     {
       title: 'Car Gets Shipped',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultrices orci, ut vulputate augue. Phasellus tincidunt enim at augue tempor finibus. Nulla at luctus libero, in pharetra.',
+      desc: 'Ship your car across the USA effortlessly with Quick Wheels. We guarantee safe, prompt delivery, ensuring a worry-free experience. Choose Quick Wheels for reliable vehicle transport. Your cars journey, made simple.',
       icon: Two,
       color: 'black',
       button: <MyStyledButton />,
     },
     {
       title: 'Car Gets Delivered',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quis ultrices orci, ut vulputate augue. Phasellus tincidunt enim at augue tempor finibus. Nulla at luctus libero, in pharetra.',
+      desc: 'Experience the ease of Quick Wheels service as your car is delivered across the USA. We ensure safe, timely transport with a focus on customer satisfaction. Trust Quick Wheels for a smooth vehicle delivery process. ',
       icon: Three,
       color: 'black',
       button: <MyStyledButton />,

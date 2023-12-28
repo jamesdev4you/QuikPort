@@ -107,7 +107,7 @@ const howAbout1 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          Fill Out Form
         </Typography>
         <Typography
           sx={{
@@ -123,9 +123,7 @@ const howAbout1 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          For a hassle-free experience with Quick Wheels, simply fill out our online form. Provide vehicle details and your transport needs across the USA. We guarantee safe, efficient vehicle relocation. Easy, reliable, and tailored to you!
         </Typography>
         <Typography
           sx={{
@@ -141,10 +139,7 @@ const howAbout1 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          Fill out our quick form: enter your details and vehicle information. We ensure a smooth, safe transport experience. Let's get your journey started today with Quick Wheels.
         </Typography>
         <Button
           variant='contained'

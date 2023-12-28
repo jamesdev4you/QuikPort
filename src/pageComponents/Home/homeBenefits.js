@@ -9,22 +9,22 @@ const homeBenefits = () => {
   const benefitsOptions = [
     {
       title: 'Safe & Secure Care',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Your vehicles safety is our priority. Trust us for a secure relocation experience with top-notch security measures!',
       logo: CarWash,
     },
     {
       title: 'Saving Money',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Save big with our cost-effective solutions. Affordable, reliable, and tailored to your budget. Drive smart with us!',
       logo: Coin,
     },
     {
       title: 'Quick Transport',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Tailored transport for you—swift, reliable, and secure. Experience excellence on every journey with us!',
       logo: Delivery,
     },
     {
       title: 'Customer Service',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Quick Wheels: 24/7 support ensures a seamless experience. Your satisfaction is our priority. Your journey begins here!',
       logo: Support,
     },
   ];

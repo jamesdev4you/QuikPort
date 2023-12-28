@@ -105,7 +105,7 @@ const homeAbout3 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          More Information
         </Typography>
         <Typography
           sx={{
@@ -120,9 +120,7 @@ const homeAbout3 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          Quick Wheels expertly moves vehicles across the USA. Specializing in personal transport, we ensure your car's safe, efficient journey. Choose Quick Wheels for reliable, stress-free vehicle relocation.
         </Typography>
         <Typography
           sx={{
@@ -137,10 +135,7 @@ const homeAbout3 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          Quick Wheels delivers efficient vehicle journeys across the USA. We specialize in moving personal cars quickly and safely. Choose us for a reliable, smooth transport experience. Your car is in expert hands with Quick Wheels.
         </Typography>
         <Button
           variant='contained'

@@ -8,13 +8,13 @@ import { ReactComponent as Telephone } from '../../assets/telephone.svg';
 const contactInfo = () => {
   const contactOptions = [
     {
-      title: 'Call us',
+      title: 'Contact us',
       desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
       logo: Telephone,
     },
     {
       title: 'Our Email',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'QuickWheels305@gmail.com',
       logo: Email,
     },
     {

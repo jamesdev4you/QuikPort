@@ -106,7 +106,7 @@ const costAbout3 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          Weight
         </Typography>
         <Typography
           sx={{
@@ -122,9 +122,7 @@ const costAbout3 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          The weight of your vehicle is a crucial factor in determining transportation costs. Heavier cars require more fuel and may necessitate specialized equipment for safe and secure transport, which can lead to higher expenses.
         </Typography>
         <Typography
           sx={{
@@ -140,10 +138,7 @@ const costAbout3 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          We're here to make your car transport experience hassle-free and cost-effective. Choose Quick Wheels for a smooth journey, no matter the weight of your vehicle.
         </Typography>
         <Button
           variant='contained'

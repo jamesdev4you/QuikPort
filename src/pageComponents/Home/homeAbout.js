@@ -98,7 +98,7 @@ const homeAbout = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          More About Quick Wheels
         </Typography>
         <Typography
           sx={{
@@ -113,9 +113,7 @@ const homeAbout = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          Quick Wheels: Effortlessly transport your vehicle across the USA with us. Reliable, speedy, and secure – we make moving your car worry-free. Trust Quick Wheels for a smooth, efficient journey.
         </Typography>
         <Typography
           sx={{
@@ -130,11 +128,8 @@ const homeAbout = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
-        </Typography>
+
+          Your go-to for stress-free vehicle transport across the USA. Specializing in personal cars, we ensure fast, secure, and reliable relocation. Trust us to move your vehicle effortlessly.        </Typography>
         <Button
           variant='contained'
           sx={{

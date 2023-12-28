@@ -106,7 +106,7 @@ const costAbout1 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          Model & Make
         </Typography>
         <Typography
           sx={{
@@ -122,10 +122,7 @@ const costAbout1 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
-        </Typography>
+          At Quick Wheels, we're experts in moving cars across the country. When it comes to transport costs, the model and make of your vehicle play a significant role.        </Typography>
         <Typography
           sx={{
             textAlign: 'left',
@@ -140,10 +137,7 @@ const costAbout1 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          High-end or luxury cars may require special handling and extra care during transport, which can lead to higher costs. Similarly, rare or vintage models may also come with a higher price tag due to their unique requirements.
         </Typography>
         <Button
           variant='contained'

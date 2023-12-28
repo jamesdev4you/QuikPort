@@ -83,7 +83,7 @@ const howAbout2 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          Finding Expert Driver
         </Typography>
         <Typography
           sx={{
@@ -99,9 +99,7 @@ const howAbout2 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          Concerned with what happens after the form is completed? Quick Wheels has you covered! Our expert drivers are skilled, experienced, and ready to transport your car safely. Trust us for a stress-free journey. Contact us now!
         </Typography>
         <Typography
           sx={{
@@ -117,10 +115,7 @@ const howAbout2 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          At Quick Wheels, our expert drivers specialize in safely transporting your vehicle across the USA. With extensive experience and a commitment to reliability, we ensure your car's journey is smooth and stress-free. Trust us for top-notch service.
         </Typography>
         <Button
           variant='contained'

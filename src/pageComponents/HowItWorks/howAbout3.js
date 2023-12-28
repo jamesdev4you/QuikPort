@@ -107,7 +107,7 @@ const howAbout3 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          Vehicle Routed!
         </Typography>
         <Typography
           sx={{
@@ -123,9 +123,7 @@ const howAbout3 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          Quick Wheels excels in routing your vehicle swiftly and safely across the USA. Our dedicated team plans the best route, ensuring timely delivery to your doorstep. Experience stress-free, reliable transportation with us. Your vehicle, our priority.
         </Typography>
         <Typography
           sx={{
@@ -141,10 +139,9 @@ const howAbout3 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          GPT
+
+          Quick Wheels' dedicated team meticulously plans the best route for your vehicle's journey across the USA. We combine expertise and technology to ensure efficient, safe transport, tailored to your needs. Trust us for top-tier vehicle routing.
         </Typography>
         <Button
           variant='contained'

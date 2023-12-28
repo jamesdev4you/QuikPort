@@ -82,7 +82,7 @@ const costAbout2 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          Distance
         </Typography>
         <Typography
           sx={{
@@ -98,9 +98,7 @@ const costAbout2 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          The distance your car needs to travel is a key factor influencing transportation costs. Longer journeys typically incur higher expenses due to factors like fuel, maintenance, and driver accommodations.
         </Typography>
         <Typography
           sx={{
@@ -116,10 +114,7 @@ const costAbout2 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          However, Quick Wheels is committed to providing competitive rates while ensuring the safety and security of your vehicle. Choose Quick Wheels for a seamless journey from door to door, no matter the distance.
         </Typography>
         <Button
           variant='contained'

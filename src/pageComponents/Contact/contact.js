@@ -9,8 +9,8 @@ const contact = () => {
     <div>
       <Menu />
       <ContactHeader />
-      <ContactInfo /> 
       <ContactPage />
+      {/* <ContactInfo /> */}
     </div>
   );
 };

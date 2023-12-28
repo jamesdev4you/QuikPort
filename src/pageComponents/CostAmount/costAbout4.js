@@ -82,7 +82,7 @@ const costAbout4 = () => {
             fontSize: { xl: '24px', lg: '28px', md: '24px' },
           }}
         >
-          More About QuikPort
+          More About Quick Wheels
         </Typography>
         <Typography
           sx={{
@@ -98,9 +98,7 @@ const costAbout4 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.{' '}
+          Your car's protection is our priority. Our experienced team understands the ins and outs of car transport, guaranteeing the safe and secure relocation of your vehicle.
         </Typography>
         <Typography
           sx={{
@@ -116,10 +114,7 @@ const costAbout4 = () => {
             },
           }}
         >
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          consectetur consectetur dictum. Vestibulum mauris ante, ornare sed
-          pulvinar quis, ultrices sit amet dui.Lorem ipsum dolor sit amet,
-          consectetur adipiscing elit. Aliquam consectetur consectetur dictum.{' '}
+          Quick Wheels operates across the country, ensuring that we can move your car to and from any location with ease.
         </Typography>
         <Button
           variant='contained'

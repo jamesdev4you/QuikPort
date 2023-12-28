@@ -9,22 +9,22 @@ const howInfo = () => {
   const contactOptions = [
     {
       title: 'Fill Out Form',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Complete Quick Wheels easy form for stress-free vehicle transport across the USA. Just enter your details and let us handle the rest. Safe, reliable, quick!',
       logo: HowThree,
     },
     {
       title: 'Car gets picked up',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Quick Wheels ensures a smooth pickup of your car for USA-wide transport. Rely on us for efficient, secure, and timely vehicle collection. Your journey starts here!',
       logo: HowTwo,
     },
     {
       title: 'Routes Taken',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Quick Wheels carefully selects optimal routes for transporting your vehicle across the USA, guaranteeing efficiency and safety in every journey. Your car is in good hands!',
       logo: HowFour,
     },
     {
       title: 'Mint Condition',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Discover the magic of Quick Wheels! We ensure your car arrives in mint condition, making your journey unforgettable. Travel with confidence.',
       logo: HowOne,
     },
   ];

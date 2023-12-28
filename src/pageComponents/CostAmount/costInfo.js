@@ -9,22 +9,22 @@ const costInfo = () => {
   const costOptions = [
     {
       title: 'Time',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Time is money, and at Quick Wheels, we understand that. Learn how time can impact your car transport cost. Trust us for your cross-country needs!',
       logo: CostOne,
     },
     {
       title: 'Distance To & From ',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Unlock the secrets of cost factors! Quick Wheels reveals how distance to and from your destination influences your car transport expenses.',
       logo: CostFour,
     },
     {
       title: 'Weight of Car',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Quick Wheels divulges the weighty matters! Learn how your cars weight impacts transport costs. Count on us for nationwide car moving expertise.',
       logo: CostThree,
     },
     {
       title: 'Model & Make',
-      desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur non commodo risus. Morbi cursus lobortis enim rutrum cursus.',
+      desc: 'Unveil the cost dynamics! Quick Wheels explains how your cars model and make influence transport expenses. Trust us for nationwide car transport solutions.',
       logo: CostTwo,
     },
   ];

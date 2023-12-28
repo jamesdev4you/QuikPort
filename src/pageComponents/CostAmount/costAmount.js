@@ -18,7 +18,8 @@ const costAmount = () => {
       <CostAbout2 />
       <CostAbout3 />
       <CostAbout4 />
-      <CostAbout5 />
+      {/*
+      <CostAbout5 /> */}
     </div>
   );
 };
